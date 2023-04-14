@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+    <html>
+        <header>
+            
+                <title>media query</title>
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <style>
+                    
+                    body {
+                        background-color: rgb(128, 211, 128);
+                    }
+                    
+                    
+                    h1{
+                        background-color: orange;
+                        padding: 50px; 
+                        text-align: center;
+                        margin: 0%; 
+                    }
+                    
+                    @media only screen and (max-width: 992px) {
+                            h1 {
+                                     background-color: rgb(52, 28, 189);
+                                 }
+                                
+                    }  
+                    @media only screen and (max-width: 600px) {
+                            h1 {
+                                     background-color: rgb(245, 7, 7);
+                                 }
+                                
+                    }
+                   
+
+
+                    .navbar {
+                            text-align: left; 
+                            list-style:none;
+                            display: inline; 
+                            display: flex; 
+                            font-family: Georgia, 'Times New Roman', Times, serif ;
+                            padding: 20px;
+                            margin-top: 0%;
+                            margin-bottom: 0px;
+                            justify-content: start;
+                            background-color: black;
+                           
+                    }
+                    li {
+                        color:whitesmoke; padding-right:20px ;
+                    }
+                       
+                    .content{
+                        background-color: whitesmoke;
+                        box-shadow: 2px;
+                        padding: 20px;
+                        margin-top: 0px;
+                        margin-left: 5px;
+                       
+                    }
+
+
+                    .flex-container {
+                        display: flex;
+                        margin: 0px;
+                        flex-wrap: nowrap;
+                       
+                    }
+                   
+
+
+
+
+                </style>
+                <h1>Online Magazine</h1>
+        </header>
+        <body>
+            <div>
+                <ul class="navbar">
+                    <li><a>Home</a></li>
+                    <li><a>About Us</a></li>
+                    <li><a>Contact Us</a></li>
+                </ul>
+            </div>
+
+            <div class="flex-container">
+                <div class="content">
+                    <h3>Business</h3>
+                    <p>A sari-sari store business is among the most common small businesses in the Philippines. It can even be argued that it’s the most common one. You can also find a sari-sari store on almost every street in the Philippines.</p></div>
+                <div class="content">
+                    <h3>Life style</h3>
+                    <p>A few more lifestyle blog post ideas on general wellness and personal development.</p></div>
+                <div class="content">
+                    <h3>Sports</h3>
+                    <p>Josh Giddey recorded 31 points, 10 assists and nine rebounds and the Oklahoma City Thunder remained alive for a Western Conference playoff spot by notching a 123-118 victory over the host New Orleans Pelicans on Wednesday night in a play-in game.</p></div>
+            </div>
+
+
+
+
+
+            
+        </body>
+
+
+
+
+    </html>
